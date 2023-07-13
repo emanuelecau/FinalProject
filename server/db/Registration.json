@@ -1,0 +1,194 @@
+[
+ {
+  "id": 1,
+  "userName": "Messi",
+  "email": "messi@hotmail.it",
+  "password": "m10",
+  "gender": "male",
+  "logged": true,
+  "coursesUser": [
+   {
+    "id": 2,
+    "name": "Tessitura",
+    "inizio": "10/10/23",
+    "fine": "10/05/24",
+    "image": "https://www.homofaber.com/uploads/cache/msmall/1637665866_mm1-jpg.jpeg",
+    "descrizione": "in questo corso imparerai le differenze tra le tipologie di tessuti esistenti e i loro utilizzi, metodi per la realizzazione di prodotti in tessuto, riparazione e manutenzione dei tessuti, prodotti e macchinari per la lavorazione e realizzeremo insieme un tappeto che rimarra a voi alla fine del corso per poi ricevere l'attestato di partecipazione e conclusione",
+    "posti": 8
+   },
+   {
+    "id": 5,
+    "name": "Climbing",
+    "inizio": "07/12/23",
+    "fine": "07/07/24",
+    "image": "https://i.pinimg.com/originals/37/be/d5/37bed5add0c8cc27c2df7cfe62b367b8.jpg",
+    "descrizione": "in questo corso imparerai le varie tecniche di climbing, attrezzatura e preparazione per una scalata sicura, problem solving in casi di difficolta',escursioni guidate e lezioni su ambiente e geologia del territorio, lezione preparatoria su equilibrio del corpo e tensione muscolare e riceverete l'attestato di partecipazione e conclusione",
+    "posti": 12
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "userName": "Cristiano ronaldo",
+  "email": "cr7@mail.it",
+  "password": "cr7",
+  "gender": "male",
+  "logged": false
+ },
+ {
+  "id": 3,
+  "userName": "Joe Bastianich ",
+  "email": "aa@aa.aa",
+  "password": "a",
+  "gender": "male"
+ },
+ {
+  "id": 4,
+  "userName": "Masseo",
+  "email": "masse@m.it",
+  "password": "m",
+  "gender": "male"
+ },
+ {
+  "id": 5,
+  "userName": "giadina",
+  "email": "giadina@libero.it",
+  "password": "gg",
+  "gender": "female",
+  "logged": false
+ },
+ {
+  "id": 6,
+  "userName": "gigone",
+  "email": "gigone@hotmail.it",
+  "password": "gg",
+  "gender": "male",
+  "logged": false
+ },
+ {
+  "id": 7,
+  "userName": "simonabona",
+  "email": "simob@hotmail.it",
+  "password": "ss",
+  "gender": "female",
+  "logged": false
+ },
+ {
+  "id": 8,
+  "userName": "alberto",
+  "email": "alberto@libero.it",
+  "password": "zz",
+  "gender": "male",
+  "logged": false
+ },
+ {
+  "id": 9,
+  "userName": "dio",
+  "email": "dio@dio.dio",
+  "password": "dio",
+  "gender": "male",
+  "coursesUser": [],
+  "logged": false
+ },
+ {
+  "id": 10,
+  "userName": "io",
+  "email": "io@io.io",
+  "password": "io",
+  "gender": "male",
+  "coursesUser": [],
+  "logged": false
+ },
+ {
+  "id": 11,
+  "userName": "lillo",
+  "email": "lillo@mail.it",
+  "password": "lillo",
+  "gender": "male",
+  "coursesUser": [],
+  "logged": false
+ },
+ {
+  "id": 12,
+  "userName": "gino",
+  "email": "gino@gino.it",
+  "password": "gino",
+  "gender": "male",
+  "coursesUser": [],
+  "logged": false
+ },
+ {
+  "id": 13,
+  "userName": "Mourinho",
+  "email": "mou@calcio.it",
+  "password": "mou",
+  "gender": "male",
+  "coursesUser": [],
+  "logged": false
+ },
+ {
+  "id": 14,
+  "userName": "claudio",
+  "email": "claudio@mail.it",
+  "password": "cla",
+  "gender": "male",
+  "coursesUser": [],
+  "logged": false
+ },
+ {
+  "id": 15,
+  "userName": "teresa",
+  "email": "teresa@mail.it",
+  "password": "terry",
+  "gender": "female",
+  "coursesUser": [
+   {
+    "id": 3,
+    "name": "Canto",
+    "inizio": "11/09/23",
+    "fine": "11/04/24",
+    "image": "https://c0.wallpaperflare.com/preview/785/180/7/musician-sing-on-stage.jpg",
+    "descrizione": "in questo corso imparerai le differenze tra le tipologie di legno esistenti e i loro utilizzi, metodi per la realizzazione di prodotti in legno, riparazione e manutenzione del legno, prodotti e macchinari per la lavorazione e realizzeremo insieme un utensile/accessorio di uso quotidiano che rimarra a voi alla fine del corso per poi ricevere l'attestato di partecipazione e conclusione",
+    "posti": 7
+   },
+   {
+    "id": 6,
+    "name": "Poesia",
+    "inizio": "12/09/23",
+    "fine": "12/04/24",
+    "image": "https://images.unsplash.com/photo-1599493782407-2fe53235d2c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMGJvb2t8ZW58MHx8MHx8fDA%3D&w=1000&q=80.jpg",
+    "descrizione": "in questo corso imparerai le differenze tra le tipologie di legno esistenti e i loro utilizzi, metodi per la realizzazione di prodotti in legno, riparazione e manutenzione del legno, prodotti e macchinari per la lavorazione e realizzeremo insieme un utensile/accessorio di uso quotidiano che rimarra a voi alla fine del corso per poi ricevere l'attestato di partecipazione e conclusione",
+    "posti": 13
+   }
+  ],
+  "logged": true
+ },
+ {
+  "id": 16,
+  "userName": "mino",
+  "email": "mino@mino.it",
+  "password": "mino",
+  "gender": "male",
+  "coursesUser": [
+   {
+    "id": 2,
+    "name": "Tessitura",
+    "inizio": "10/10/23",
+    "fine": "10/05/24",
+    "image": "https://www.homofaber.com/uploads/cache/msmall/1637665866_mm1-jpg.jpeg",
+    "descrizione": "in questo corso imparerai le differenze tra le tipologie di tessuti esistenti e i loro utilizzi, metodi per la realizzazione di prodotti in tessuto, riparazione e manutenzione dei tessuti, prodotti e macchinari per la lavorazione e realizzeremo insieme un tappeto che rimarra a voi alla fine del corso per poi ricevere l'attestato di partecipazione e conclusione",
+    "posti": 10
+   },
+   {
+    "id": 3,
+    "name": "Canto",
+    "inizio": "11/09/23",
+    "fine": "11/04/24",
+    "image": "https://c0.wallpaperflare.com/preview/785/180/7/musician-sing-on-stage.jpg",
+    "descrizione": "in questo corso imparerai le differenze tra le tipologie di legno esistenti e i loro utilizzi, metodi per la realizzazione di prodotti in legno, riparazione e manutenzione del legno, prodotti e macchinari per la lavorazione e realizzeremo insieme un utensile/accessorio di uso quotidiano che rimarra a voi alla fine del corso per poi ricevere l'attestato di partecipazione e conclusione",
+    "posti": 5
+   }
+  ],
+  "logged": true
+ }
+]

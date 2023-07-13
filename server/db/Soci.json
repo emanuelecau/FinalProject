@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Luca",
+        "Surname": "Sarais",
+        "age": 28,
+        "img": "https://randomuser.me/api/portraits/women/2.jpg",
+        "role": "admin",
+        "story": "Nato a Cagliari, sardegna si e' specializzato nel tempo in tecniche agricole di sussistenza e in studi geologici ambientali in linea con progetti ecosostenibili, abile nel captare input sociali e grande osservatore Luca ha elaborato un suo lifestile che rispecchia i principi di liberta' e avventura cose che in coco' sono pane quotidiano",
+        "skill": "Longimiranza,gestione e progettazione, suona la chitarra "
+    },
+    {
+        "name": "Giacomo",
+        "Surname": "Cossu",
+        "age": 28,
+        "img": "https://randomuser.me/api/portraits/men/40.jpg",
+        "role": "admin",
+        "story": "Nato a Sassari, sardegna e' un architetto di titolo che nel tempo girando qua e la per il mondo e amplificando le sue esperienze e conoscenze antropologiche ha maturato l'idea di voler costruire un posto adatto alle comunita' e che dia manforte e servizi in piccole realta' che godono di una forte identita' culturale che non deve essere assolutamente persa ma valorizzata ",
+        "skill": "Oratore eccellente,Visione organizzativa, ecclettico,Grande manualita'  "
+    },
+    {
+        "name": "Emanuele",
+        "Surname": "Cau",
+        "age": 28,
+        "img": "https://randomuser.me/api/portraits/men/54.jpg",
+        "role": "Programmer",
+        "story": "Nato a Tempio, sardegna si e' interessato nel tempo a studi in ambito grafico e tech per consentirgli di mostrare al meglio le sue doti creative e in coco ha trovato l'ambiente perfetto di confronto e creazione",
+        "skill": "PC,filosofo, beve gin pelmo"
+    },
+    {
+        "name": "Piero",
+        "Surname": "Macaluso",
+        "age": 28,
+        "role": "Programmer",
+        "img": "https://randomuser.me/api/portraits/men/82.jpg",
+        "story": "Nato a Sanremo, liguria si e' interessato nel tempo a studi in ambito informaticico e tech per arrivare ad avere delle grandi doti a livello logistico e gestionale, l'incontro con coco e' perfetto per bilanciare tempo lavoro e ambiente sociale sano",
+        "skill": "PC,Organizzatore,Ottime capacita'di adattamento e velocita' di apprendimento, beve gin pelmo"
+    },
+    {
+        "name": "Luisa",
+        "Surname": "Pesenti",
+        "age": 27,
+        "img": "https://randomuser.me/api/portraits/women/60.jpg",
+        "role": "Planner-Business",
+        "story": "Nata a Tempio, Sardegna si e' interessata a studi economici,relazionali per grandi mercati esteri e globali,abilissima nella parte commerciale e direzionale per quanto rigurda gestione entrate e uscite",
+        "skill": "PC,Contabilita',Soluzioni innovative, beve gin pelmo"
+    },
+    {
+        "name": "Chiara",
+        "Surname": "Pesenti",
+        "age": 27,
+        "img": "https://randomuser.me/api/portraits/women/31.jpg",
+        "role": "Planner-Legacy",
+        "story": "Nata a Tempio, Sardegna si e' interessata a studi aziendali per conoscere al meglio tutti gli aspetti oscuri dietro il lato legale e le burocrazie che non tendono mai a mancare abile conoscitrice delle leggi e di come aggirarle a lei il compito di sorvegliare giorno e notte che il cielo sia sempre sereno sopra coco",
+        "skill": "Legislatura,Soluzioni legali, beve gin pelmo"
+    },
+    {
+        "name": "Edoardo",
+        "Surname": "Destro",
+        "age": 27,
+        "img": "https://randomuser.me/api/portraits/men/44.jpg",
+        "role": "Programmer",
+        "story": "Nata a Nuoro, Sardegna si e' interessato a studi gestionali informatici, grande mente, sempre pieno di idee innovative e progetti di fascino e successo, arriva a coco come l'arcobaleno dopo la pioggia e si fonde perfettamente nel suo ambiente luminoso ",
+        "skill": "PC,Conoscenze di Design, beve gin pelmo"
+    },
+    {
+        "name": "Primo",
+        "Surname": "Boninu",
+        "age": 28,
+        "img": "https://randomuser.me/api/portraits/men/43.jpg",
+        "role": "Jolly",
+        "story": "Nata a Sassari, Sardegna si e' interessato a studi di natura politecnica viaggiando e spostandosi per lavoro e borse di studio in giro per il mondo porta la freschezza che serve a coco come la menta in un mojito",
+        "skill": "OpenMaind,Attivita' sportive, beve gin pelmo"
+    },
+    {
+        "name": "Davide",
+        "Surname": "Moro",
+        "age": 28,
+        "img": "https://randomuser.me/api/portraits/men/48.jpg",
+        "role": "Traveler",
+        "story": "Nata a Macomer, Sardegna unico padrone di se stesso e' sempre riuscito a portare avanti in suoi progetti a prescindere dalle condizioni, grande adattamento e lavoro di team, porta un sorriso in giro per il mondo, gitano del quieto vivere approda a coco con la sua barca di idee e soluzioni, persona molto pratica e a noi piiiace",
+        "skill": "TravelPro,Sostenibilita',Scuola del vivere, beve gin pelmo"
+    },
+    {
+        "name": "Antonio",
+        "Surname": "Sechi",
+        "age": 28,
+        "img": "https://randomuser.me/api/portraits/men/78.jpg",
+        "role": "Player",
+        "story": "Nata a Uri, Sardegna si e'sempre distinto per la sua continua voglia di fare e dopo laurea e specializzazioni ora ha incontrato coco ed e' pianamente ricambiato dall'interesse, grande lavoratore, il suo motto: va beh dopo ci beviamo due birrette, ora finiamo! ",
+        "skill": "Forzafisica,Protagonista di spuntini e leader della cerimonialita', beve gin pelmo"
+    },
+    {
+        "name": "Irene",
+        "Surname": "Friggia",
+        "age": 27,
+        "img": "https://randomuser.me/api/portraits/women/44.jpg",
+        "role": "Designer",
+        "story": "Nata a Sassari, dopo aver concluso gli studi di architettura si e' dedicata al design e allo studio delle forme relative a diversi ambienti, eco strutture, spazi aperti e fusione con la natura presupposti che coco abbraccia ad ali aperte",
+        "skill": "Design,Soluzioni eco, beve gin pelmo"
+    }
+]

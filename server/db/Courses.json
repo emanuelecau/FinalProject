@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Falegnameria",
+    "inizio": "24/09/23",
+    "fine": "24/04/24",
+    "image": "https://images.unsplash.com/photo-1569525987258-6aa03a5e4926?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMGFyY2hpdGVjdHVyZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80.jpg",
+    "descrizione": "in questo corso imparerai le differenze tra le tipologie di legno esistenti e i loro utilizzi, metodi per la realizzazione di prodotti in legno, riparazione e manutenzione del legno, prodotti e macchinari per la lavorazione e realizzeremo insieme un utensile/accessorio di uso quotidiano che rimarra a voi alla fine del corso per poi ricevere l'attestato di partecipazione e conclusione",
+    "posti": 0
+  },
+  {
+    "id": 2,
+    "name": "Tessitura",
+    "inizio": "10/10/23",
+    "fine": "10/05/24",
+    "image": "https://www.homofaber.com/uploads/cache/msmall/1637665866_mm1-jpg.jpeg",
+    "descrizione": "in questo corso imparerai le differenze tra le tipologie di tessuti esistenti e i loro utilizzi, metodi per la realizzazione di prodotti in tessuto, riparazione e manutenzione dei tessuti, prodotti e macchinari per la lavorazione e realizzeremo insieme un tappeto che rimarra a voi alla fine del corso per poi ricevere l'attestato di partecipazione e conclusione",
+    "posti": 7
+  },
+  {
+    "id": 3,
+    "name": "Canto",
+    "inizio": "11/09/23",
+    "fine": "11/04/24",
+    "image": "https://c0.wallpaperflare.com/preview/785/180/7/musician-sing-on-stage.jpg",
+    "descrizione": "in questo corso imparerai le differenze tra le tipologie di legno esistenti e i loro utilizzi, metodi per la realizzazione di prodotti in legno, riparazione e manutenzione del legno, prodotti e macchinari per la lavorazione e realizzeremo insieme un utensile/accessorio di uso quotidiano che rimarra a voi alla fine del corso per poi ricevere l'attestato di partecipazione e conclusione",
+    "posti": 4
+  },
+  {
+    "id": 4,
+    "name": "Coltivazione",
+    "inizio": "20/11/23",
+    "fine": "20/06/24",
+    "image": "https://www.spornberg.it/fileadmin/_processed_/b/7/csm_Buchh%C3%BCtter__ArminHuber_HQ-3557-SW%402x_65ab402944.jpg",
+    "descrizione": "in questo corso imparerai l'arte della coltivazione, metodi per coltivazione tradizionale e avanzata rispettando il terreno e azzerando sprechi e inquinamento ambientale, agricoltura di sostentamento e orto biologico, coltivazione di ortaggi e piante, il prodotto finale rimarra' a voi alla fine del corso per poi ricevere l'attestato di partecipazione e conclusione",
+    "posti": 10
+  },
+  {
+    "id": 5,
+    "name": "Climbing",
+    "inizio": "07/12/23",
+    "fine": "07/07/24",
+    "image": "https://i.pinimg.com/originals/37/be/d5/37bed5add0c8cc27c2df7cfe62b367b8.jpg",
+    "descrizione": "in questo corso imparerai le varie tecniche di climbing, attrezzatura e preparazione per una scalata sicura, problem solving in casi di difficolta',escursioni guidate e lezioni su ambiente e geologia del territorio, lezione preparatoria su equilibrio del corpo e tensione muscolare e riceverete l'attestato di partecipazione e conclusione",
+    "posti": 11
+  },
+  {
+    "id": 6,
+    "name": "Poesia",
+    "inizio": "12/09/23",
+    "fine": "12/04/24",
+    "image": "https://images.unsplash.com/photo-1599493782407-2fe53235d2c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMGJvb2t8ZW58MHx8MHx8fDA%3D&w=1000&q=80.jpg",
+    "descrizione": "in questo corso imparerai le differenze tra le tipologie di legno esistenti e i loro utilizzi, metodi per la realizzazione di prodotti in legno, riparazione e manutenzione del legno, prodotti e macchinari per la lavorazione e realizzeremo insieme un utensile/accessorio di uso quotidiano che rimarra a voi alla fine del corso per poi ricevere l'attestato di partecipazione e conclusione",
+    "posti": 12
+  }
+]
