@@ -20,8 +20,8 @@ function App() {
   return (
     <>
       <nav className="nav">
-        <ul style={{ padding: "0px 50px" }} className="ul">
-          <Link style={{ marginRight: "auto" }} to="/"><img id="logo" src="https://img.freepik.com/premium-vector/chicken-logo-template-design-vector_20029-835.jpg" /></Link>
+        <ul className="ul">
+          <Link to="/"><img id="logo" src="https://img.freepik.com/premium-vector/chicken-logo-template-design-vector_20029-835.jpg" /></Link>
           <li className="menu">
             <Link className="link" to="/">Home</Link>
           </li>

@@ -1,6 +1,3 @@
-
-//prova 3 TAP MTAP
-
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { toast, ToastContainer } from 'react-toastify';
@@ -8,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export function CoursesList({ user, setUser }) {
     const [courses, setCourses] = useState([]);
-    console.log(user.coursesUser);
+
 
     useEffect(() => {
         async function getCourses() {
@@ -47,8 +44,6 @@ export function CoursesList({ user, setUser }) {
                         coursesUser: updatedCoursesUser,
                     });
 
-                    // const updatedUserRes = await axios.get(`http://localhost:8000/Users/${user.id}`);
-                    // setUser(updatedUserRes.data);
 
                     // Update the local state after successful enrollment
                     setCourses((prevCourses) =>
@@ -56,7 +51,6 @@ export function CoursesList({ user, setUser }) {
                             c.id === courseId ? { ...c, posti: c.posti - 1 } : c
                         )
                     );
-                    console.log(user);
                     setUser((prevUser) => {
                         if (Array.isArray(prevUser.coursesUser)) {
                             return {
@@ -88,37 +82,24 @@ export function CoursesList({ user, setUser }) {
     return (
         <>
             <div className="page">
-                <h1 style={{ fontSize: "50px", padding: "50px" }}>Scegli il tuo corso</h1>
+                <h1>Scegli il tuo corso</h1>
                 <div className="box">
                     <ul className="corsi">
                         {courses.map((course) => (
-                            <li style={{ margin: "50px" }} key={course.id} className="card">
+                            <li key={course.id} className="card">
                                 <div className="sxCard">
-                                    <h2 style={{ fontSize: "40px", margin: "20px", marginTop: "0" }}>
+                                    <h2>
                                         {course.name}
                                     </h2>
                                     <img
                                         src={course.image}
                                         alt="courses"
-                                        width="300"
-                                        height="380px"
-                                        style={{
-                                            objectFit: "cover",
-                                            border: "1px solid",
-                                            backgroundColor: "#fd5f00",
-                                            borderRadius: "10px",
-                                            color: "white",
-                                        }}
                                     />
                                 </div>
 
                                 <div className="dxCard">
-                                    <div
-                                        style={{
-                                            display: "flex",
-                                            flexDirection: "column",
-                                            justifyContent: "space-around",
-                                        }}
+                                    <div className="dxDiv"
+
                                     >
                                         <h3 className="descrizione">Descrizione: </h3>
                                         <p className="p-courses">{course.descrizione}</p>
@@ -127,24 +108,10 @@ export function CoursesList({ user, setUser }) {
                                                 ? `inizio corso: ${course.inizio}`
                                                 : `disponibile dal ${course.fine}`}
                                         </h3>
-                                        <div
-                                            className="iscriviti"
-                                            style={{
-                                                display: "flex",
-                                                justifyContent: "center",
-                                                marginTop: "20px",
-                                            }}
-                                        >
+                                        <div className="iscriviti">
                                             <button
                                                 onClick={() => handleEnroll(course, user)}
-                                                style={{
-                                                    display: "flex",
-                                                    justifySelf: "center",
-                                                    alignSelf: "center",
-                                                    width: "120px",
-                                                    textAlign: "center",
-                                                    justifyContent: "center",
-                                                }}
+
                                             >
                                                 {course.posti > 0 && course.inizio !== "gia' iniziato"
                                                     ? "Iscriviti"
@@ -157,7 +124,7 @@ export function CoursesList({ user, setUser }) {
                         ))}
                     </ul>
                 </div>
-            </div>
+            </div >
             <ToastContainer></ToastContainer>
         </>
     );

@@ -70,18 +70,9 @@ export function Login({ setIsLoggedIn, setUser }) {
                     </div>
                 </div>
             </div>
-            <p style={{ marginTop: "-170px", color: "black", fontSize: "23px", }}>ancora non sei registrato? che aspetti!  <Link style={{ fontSize: "32px", }} className="link" to="/Registration" element={<RegistrationForm />}> Registrati </Link>  </p>
+            <p className='end' >ancora non sei registrato? che aspetti!  <Link className="link" to="/Registration" element={<RegistrationForm />}> Registrati </Link>  </p >
             <ToastContainer></ToastContainer>
         </>
     );
 }
-
-
-
-
-
-
-
-//LOGINCORRETTTTOOOO???///
-
 

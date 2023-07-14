@@ -6,7 +6,6 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export function Profile({ user, setIsLoggedIn, setUser }) {
     const [loggedInUsers, setLoggedInUsers] = useState([]);
-    // const [showCourses, setShowCourses] = useState([])
     const navigate = useNavigate();
 
     const handleDeleteCourse = async (courseId) => {
@@ -56,38 +55,29 @@ export function Profile({ user, setIsLoggedIn, setUser }) {
 
         fetchLoggedInUsers();
     }, []);
-
-    // useEffect(() => {
-    //     const fetchCourses = async () => {
-    //         const resp = await axios.get('http://lolaclhost:8000/Registration');
-    //         setShowCourses(resp.data)
-    //     }
-    //     fetchCourses()
-    // }, [])
-
     return (
         <>
             <div className='page4'>
-                <div className='first-b' style={{ width: "50%", display: "flex", alignSelf: "flex-start", margin: "20px", backdropFilter: "blur(20px)" }} key={user.id}>
+                <div className='first-b2' key={user.id}>
                     <h2>Welcome, {user.userName}! {user.gender === 'female' ? 'benvenuta' : 'benvenuto'} nella stalla, {user.userName} sta cercando un server che gli serva</h2>
-                    {/* Render other user details here */}
 
                     <button onClick={handleLogout}>Log Out</button>
                 </div>
 
                 <div className='page3'>
-                    {/* Render coursesUser details here */}
                     {user.coursesUser && user.coursesUser.map((course) => (
                         <div className="sxCardProfile" key={course.id}>
                             <h2>{course.name}</h2>
                             <img src={course.image} alt={course.name} />
-                            <button onClick={() => handleDeleteCourse(course.id)} style={{ borderRadius: "50%", width: "50px", height: "50px", textAlign: "center", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "15px" }}>X</button>
+                            <button onClick={() => handleDeleteCourse(course.id)} >X</button>
                         </div>
                     ))}
                 </div>
 
 
-                <div className='page3' style={{ width: "100%", height: "100vh" }}>{user.userName}</div>
+                <div style={{ color: "white", fontSize: "30px" }} className='page3 corsi'><h2 style={{ fontSize: "40px" }}>{user.name} e' {user.gender == 'female' ? 'iscritta' : 'iscritto'}  a  </h2> {user.coursesUser.length} {user.coursesUser.length > 1 ? 'corsi' : 'corso'} </div>
+
+
             </div>
             <ToastContainer></ToastContainer>
         </>

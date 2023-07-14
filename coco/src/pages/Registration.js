@@ -85,7 +85,7 @@ export function RegistrationForm() {
     return (
         <>
             <div className='log-box'>
-                <div className="first-b" style={{ height: "fit-content" }}>
+                <div className="first-b" >
                     <img id="logo" src="https://png.pngtree.com/png-vector/20191009/ourlarge/pngtree-user-icon-png-image_1796659.jpg" alt="" />
                     <form>
                         <div className="space-div">
@@ -101,13 +101,16 @@ export function RegistrationForm() {
                             <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" name="password" id="password" required />
                         </div>
                         <div className="space-div">
+                            <label style={{ fontSize: "10px" }}>Gender</label>
+                            <br></br>
+                            <br></br>
                             <div className="form-group">
-                                <label>Gender</label>
-                                <br></br>
-                                <input type="radio" checked={gender === 'male'} onChange={e => genderchange(e.target.value)} name="gender" value="male" className="app-check"></input>
+
                                 <label>Male</label>
-                                <input type="radio" checked={gender === 'female'} onChange={e => genderchange(e.target.value)} name="gender" value="female" className="app-check"></input>
+                                <input className="input" type="radio" checked={gender === 'male'} onChange={e => genderchange(e.target.value)} name="gender" value="male"></input>
                                 <label>Female</label>
+                                <input className="input" type="radio" checked={gender === 'female'} onChange={e => genderchange(e.target.value)} name="gender" value="female" ></input>
+
                             </div>
                         </div>
                         <div className="space-div4">

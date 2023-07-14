@@ -1,11 +1,10 @@
 import express from 'express';
-import multer from 'multer';
-import session from 'express-session';
+
 import fs from 'node:fs/promises';
 import _ from 'lodash';
 
 let registrations = [];
-const upload = multer({ dest: 'upload/' });
+
 
 import {
     addCourses,
